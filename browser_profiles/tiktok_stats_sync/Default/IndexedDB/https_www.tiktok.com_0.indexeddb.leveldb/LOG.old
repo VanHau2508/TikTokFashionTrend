@@ -1,0 +1,12 @@
+2026/06/25-19:22:08.807 19d0 Reusing MANIFEST D:\TikTokFashionTrend_v2\TikTokFashionTrend\browser_profiles\tiktok_stats_sync\Default\IndexedDB\https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/25-19:22:08.807 19d0 Recovering log #1744
+2026/06/25-19:22:08.860 19d0 Reusing old log D:\TikTokFashionTrend_v2\TikTokFashionTrend\browser_profiles\tiktok_stats_sync\Default\IndexedDB\https_www.tiktok.com_0.indexeddb.leveldb/001744.log 
+2026/06/25-19:22:33.478 5e28 Level-0 table #1749: started
+2026/06/25-19:22:33.506 5e28 Level-0 table #1749: 824789 bytes OK
+2026/06/25-19:22:33.509 5e28 Delete type=0 #1744
+2026/06/25-19:22:33.526 5e28 Compacting 1@1 + 1@2 files
+2026/06/25-19:22:33.549 5e28 Generated table #1750@1: 1109 keys, 24017 bytes
+2026/06/25-19:22:33.550 5e28 Compacted 1@1 + 1@2 files => 24017 bytes
+2026/06/25-19:22:33.551 5e28 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/06/25-19:22:33.551 5e28 Delete type=2 #1746
+2026/06/25-19:22:33.551 5e28 Delete type=2 #1749

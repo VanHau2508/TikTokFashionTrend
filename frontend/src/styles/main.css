@@ -1,0 +1,19 @@
+@import "./base/variables.css";
+@import "./base/base.css";
+
+@import "./layouts/common.css";
+
+@import "./auth/login-auth.css";
+@import "./auth/landing.css";
+
+@import "./user/userPages.css";
+@import "./user/videoDetail.css";
+
+@import "./admin/adminCore.css";
+@import "./admin/adminDashboard.css";
+@import "./admin/adminTasks.css";
+@import "./admin/adminUsers.css";
+@import "./admin/adminJobs.css";
+@import "./admin/adminVideoManagement.css";
+@import "./admin/adminErrorDisplay.css";
+@import "./admin/adminSystem.css";

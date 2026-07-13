@@ -1,0 +1,14 @@
+/* =========================================================
+   RESET CSS + THIẾT LẬP NỀN TẢNG
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", "Segoe UI", Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}

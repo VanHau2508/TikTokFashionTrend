@@ -1,0 +1,60 @@
+/* =========================================================
+   ADMIN ERROR DISPLAY - CLEAN MODULE
+   Chỉ giữ lỗi/kỹ thuật, không override layout task/banner.
+========================================================= */
+
+.pipeline-error-box,
+.task-error-box {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+}
+
+.pipeline-error,
+.task-error {
+  display: block;
+  margin: 0;
+  color: #be123c;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.task-log-line {
+  margin-top: 8px;
+}
+
+.task-log-line p {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.technical-error-details {
+  margin-top: 8px;
+}
+
+.technical-error-details summary {
+  cursor: pointer;
+  color: #475569;
+  font-size: 12px;
+  font-weight: 900;
+  user-select: none;
+}
+
+.technical-error-details pre {
+  max-height: 180px;
+  overflow: auto;
+  margin: 8px 0 0;
+  padding: 10px;
+  border-radius: 10px;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 11px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  word-break: break-word;
+}

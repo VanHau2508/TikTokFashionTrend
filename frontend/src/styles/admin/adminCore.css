@@ -1,0 +1,122 @@
+/* =========================================================
+   ADMIN CORE - shared layout, typography and buttons
+========================================================= */
+.admin-page,
+.admin-page * {
+  box-sizing: border-box;
+}
+
+.admin-page {
+  --admin-bg: #f3f6fb;
+  --admin-surface: #ffffff;
+  --admin-surface-soft: #f8fafc;
+  --admin-dark: #0f172a;
+  --admin-muted: #64748b;
+  --admin-border: #e2e8f0;
+  --admin-pink: #fe2062;
+  --admin-pink-dark: #e01850;
+  --admin-green: #16a34a;
+  --admin-red: #dc2626;
+  --admin-amber: #d97706;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
+  color: var(--admin-dark);
+  font-family: Inter, "Be Vietnam Pro", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-synthesis-weight: none;
+}
+
+.admin-page .page-title {
+  font-size: clamp(24px, 2.2vw, 32px);
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  color: var(--admin-dark);
+}
+
+.admin-page .page-subtitle {
+  color: var(--admin-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.admin-page .card-box,
+.admin-page .admin-video-toolbar,
+.admin-page .admin-video-table-card,
+.admin-page .admin-overview-section,
+.admin-page .admin-task-panel,
+.admin-page .admin-workflow-card,
+.admin-page .admin-user-filter-card,
+.admin-page .admin-users-table-card,
+.admin-page .admin-jobs-filter-card,
+.admin-page .admin-jobs-table-card {
+  border: 1px solid rgba(226, 232, 240, 0.92);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.07);
+}
+
+.admin-page button,
+.admin-page input,
+.admin-page select,
+.admin-page textarea {
+  font-family: inherit;
+}
+
+.admin-page button {
+  cursor: pointer;
+}
+
+.admin-page button:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.admin-page .btn-primary-pink,
+.admin-page .admin-refresh-btn,
+.admin-page .admin-filter-btn,
+.admin-page .admin-task-run-btn,
+.admin-page .admin-add-user-btn,
+.admin-page .mini-action-btn {
+  border: 0;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--admin-pink) 0%, #ff4b7f 100%);
+  color: #ffffff;
+  box-shadow: 0 12px 24px rgba(254, 32, 98, 0.22);
+  font-weight: 800;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, opacity 0.18s ease;
+}
+
+.admin-page .btn-primary-pink:hover,
+.admin-page .admin-refresh-btn:hover,
+.admin-page .admin-filter-btn:hover,
+.admin-page .admin-task-run-btn:hover,
+.admin-page .admin-add-user-btn:hover,
+.admin-page .mini-action-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 30px rgba(254, 32, 98, 0.25);
+}
+
+.main-content,
+.layout-main,
+.page-main,
+.admin-main,
+.content-area,
+.app-content {
+  min-width: 0;
+}
+
+@media (min-width: 992px) {
+  body:has(.admin-sidebar) .main-content,
+  body:has(.admin-sidebar) .layout-main,
+  body:has(.admin-sidebar) .page-main,
+  body:has(.admin-sidebar) .admin-main,
+  body:has(.admin-sidebar) .content-area,
+  body:has(.admin-sidebar) .app-content {
+    min-width: 0;
+    max-width: calc(100vw - 304px);
+    overflow-x: hidden;
+  }
+}

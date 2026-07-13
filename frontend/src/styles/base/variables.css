@@ -1,0 +1,18 @@
+/* =========================================================
+   BIẾN THIẾT KẾ DÙNG CHUNG TOÀN HỆ THỐNG
+   ========================================================= */
+
+:root {
+  --color-primary: #fe2062;
+  --color-dark: #1f283c;
+  --color-cyan: #42fff6;
+  --color-border: #e5e7eb;
+  --color-bg: #f5f7fb;
+  --color-card: #ffffff;
+  --color-text: #1f283c;
+  --color-muted: #667d98;
+  --color-soft-pink: #fef5f5;
+  --soft-shadow: 0 10px 30px rgba(31, 40, 60, 0.08);
+  --hover-shadow: 0 18px 42px rgba(31, 40, 60, 0.14);
+  --soft-border: 1px solid rgba(229, 231, 235, 0.95);
+}

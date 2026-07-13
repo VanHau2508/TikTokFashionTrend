@@ -1,0 +1,245 @@
+/* Auto-split from previous admin CSS. Keep className unchanged. */
+
+/* =========================================================
+   ADMIN JOBS / CRAWLER JOBS
+   ========================================================= */
+
+.admin-jobs-hero {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 22px;
+  border-radius: 30px;
+  padding: 30px;
+  color: #ffffff;
+  background:
+    radial-gradient(circle at 85% 15%, rgba(20, 216, 208, 0.30), transparent 28%),
+    radial-gradient(circle at 10% 0%, rgba(254, 32, 98, 0.28), transparent 28%),
+    linear-gradient(135deg, #0f172a 0%, #1f2a44 50%, #111827 100%);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.admin-jobs-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px);
+  background-size: 34px 34px;
+  mask-image: linear-gradient(90deg, transparent, #000 16%, #000 80%, transparent);
+  pointer-events: none;
+}
+
+.admin-jobs-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.admin-jobs-hero span {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 7px 12px;
+  border-radius: 999px;
+  color: #67fff7;
+  background: rgba(20, 216, 208, 0.11);
+  border: 1px solid rgba(20, 216, 208, 0.2);
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.admin-jobs-hero h1 {
+  margin: 12px 0 8px;
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.05;
+  font-weight: 950;
+  letter-spacing: -0.05em;
+}
+
+.admin-jobs-hero p {
+  max-width: 760px;
+  margin: 0;
+  color: #cbd5e1;
+  line-height: 1.65;
+}
+
+.admin-jobs-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.admin-jobs-stat-grid div {
+  min-height: 108px;
+  padding: 18px;
+  border-radius: 22px;
+  background: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  box-shadow: 0 16px 38px rgba(15, 23, 42, 0.065);
+}
+
+.admin-jobs-stat-grid span {
+  color: var(--admin-muted);
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.admin-jobs-stat-grid strong {
+  display: block;
+  margin-top: 8px;
+  color: var(--admin-dark);
+  font-size: 28px;
+  font-weight: 950;
+  letter-spacing: -0.04em;
+}
+
+.admin-jobs-filter-card {
+  padding: 18px !important;
+  margin-bottom: 20px;
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
+  border-radius: 24px !important;
+  background: rgba(255, 255, 255, 0.96) !important;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.07) !important;
+}
+
+.admin-jobs-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  border: 1px solid var(--admin-border);
+  border-radius: 16px;
+  background: #f8fafc;
+  padding: 0 14px;
+}
+
+.admin-jobs-search input {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  background: transparent;
+  color: var(--admin-dark);
+  font-weight: 700;
+}
+
+.admin-jobs-search input:focus {
+  border-color: rgba(254, 32, 98, 0.48) !important;
+  background: #ffffff !important;
+  box-shadow: 0 0 0 4px rgba(254, 32, 98, 0.10);
+}
+
+.admin-jobs-table-card {
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
+  border-radius: 24px !important;
+  background: rgba(255, 255, 255, 0.96) !important;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.07) !important;
+}
+
+.admin-jobs-table {
+  margin-bottom: 0 !important;
+  border-collapse: separate !important;
+  border-spacing: 0 10px !important;
+}
+
+.admin-jobs-table thead th {
+  border: 0 !important;
+  padding: 0 16px 8px !important;
+  color: var(--admin-muted) !important;
+  font-size: 12px !important;
+  letter-spacing: 0.06em;
+  font-weight: 950 !important;
+}
+
+.admin-jobs-table tbody tr {
+  background: #f8fafc !important;
+  box-shadow: inset 0 0 0 1px rgba(226, 232, 240, 0.9);
+}
+
+.admin-jobs-table tbody td {
+  border: 0 !important;
+  padding: 16px !important;
+  background: transparent !important;
+  vertical-align: middle;
+}
+
+.admin-jobs-table tbody td:first-child {
+  border-radius: 18px 0 0 18px;
+}
+
+.admin-jobs-table tbody td:last-child {
+  border-radius: 0 18px 18px 0;
+}
+
+.admin-job-status,
+.admin-job-type {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.admin-job-status.completed {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.admin-job-status.running {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.admin-job-status.failed {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.admin-job-status.unknown,
+.admin-job-type {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.admin-job-name strong {
+  display: block;
+  color: var(--admin-dark);
+  font-weight: 950;
+}
+
+.admin-job-name small {
+  display: block;
+  max-width: 520px;
+  margin-top: 4px;
+  color: var(--admin-red);
+  line-height: 1.45;
+}
+
+@media (max-width: 1200px) {
+  .admin-jobs-stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .admin-jobs-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px !important;
+    border-radius: 24px !important;
+  }
+
+  .admin-jobs-stat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-jobs-table-wrap {
+    overflow-x: auto;
+  }
+}

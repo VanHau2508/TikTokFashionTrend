@@ -1,0 +1,158 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.eggs/
+build/
+develop-eggs/
+.ipynb_checkpoints/
+.tox/
+.ruff_cache/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+*.token
+secrets.json
+# --- TikTok / phien dang nhap (KHONG day len repo) ---
+cookies.json
+cookies*.json
+*.cookies
+auth_state.json
+storage_state.json
+
+# =========================
+# Browser profile (Playwright persistent context)
+# =========================
+browser_profiles/
+!browser_profiles/.gitkeep
+.playwright/
+ms-playwright/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# Database backup / export
+# =========================
+*.backup
+*.dump
+*.sqlite
+*.sqlite3
+pg_backup/
+backup/
+backups/
+# Ignore SQL exports, but keep schema/init files if needed
+*.sql
+!database/schema.sql
+!database/init.sql
+
+# =========================
+# Node / React / Vite
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.vite/
+.eslintcache
+.turbo/
+.next/
+.parcel-cache/
+coverage/
+*.local
+# GIU LAI lock file (package-lock.json, yarn.lock) de cai dat tai lap duoc
+
+# =========================
+# Playwright test output
+# =========================
+test-results/
+playwright-report/
+playwright/.cache/
+
+# =========================
+# AI Models / Training Output
+# =========================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.h5
+*.pkl
+*.joblib
+runs/
+weights/
+checkpoints/
+models_cache/
+ai/models/*
+!ai/models/.gitkeep
+!ai/models/README.md
+
+# =========================
+# Video / Frame / debug temp
+# =========================
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+frames/
+temp/
+tmp/
+downloads/
+uploads/
+backend/temp/
+backend/tmp/
+backend/frames/
+ai/temp/
+ai/frames/
+page_sample.txt
+page_*.html
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Document / Report drafts
+# =========================
+*.docx
+*.docm
+*.pptx
+*.pdf
+~$*

@@ -1,0 +1,118 @@
+2026/06/25-18:13:15.038 5df4 Reusing MANIFEST D:\TikTokFashionTrend_v2\TikTokFashionTrend\browser_profiles\tiktok_stats_sync\Default\Session Storage/MANIFEST-000001
+2026/06/25-18:13:15.066 5df4 Recovering log #1697
+2026/06/25-18:13:15.069 5df4 Reusing old log D:\TikTokFashionTrend_v2\TikTokFashionTrend\browser_profiles\tiktok_stats_sync\Default\Session Storage/001697.log 
+2026/06/25-18:13:56.927 5df4 Level-0 table #1701: started
+2026/06/25-18:13:56.932 5df4 Level-0 table #1701: 16862 bytes OK
+2026/06/25-18:13:56.934 5df4 Delete type=0 #1697
+2026/06/25-18:17:11.715 7254 Level-0 table #1703: started
+2026/06/25-18:17:11.723 7254 Level-0 table #1703: 20083 bytes OK
+2026/06/25-18:17:11.726 7254 Delete type=0 #1700
+2026/06/25-18:17:11.727 7254 Compacting 4@0 + 2@1 files
+2026/06/25-18:17:11.836 7254 Generated table #1704@0: 188784 keys, 2125098 bytes
+2026/06/25-18:17:11.841 7254 Generated table #1705@0: 2338 keys, 105943 bytes
+2026/06/25-18:17:11.841 7254 Compacted 4@0 + 2@1 files => 2231041 bytes
+2026/06/25-18:17:11.842 7254 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/06/25-18:17:11.843 7254 Delete type=2 #1693
+2026/06/25-18:17:11.843 7254 Delete type=2 #1694
+2026/06/25-18:17:11.843 7254 Delete type=2 #1696
+2026/06/25-18:17:11.843 7254 Delete type=2 #1698
+2026/06/25-18:17:11.843 7254 Delete type=2 #1701
+2026/06/25-18:17:11.843 7254 Delete type=2 #1703
+2026/06/25-18:19:45.400 5df4 Level-0 table #1707: started
+2026/06/25-18:19:45.406 5df4 Level-0 table #1707: 19909 bytes OK
+2026/06/25-18:19:45.408 5df4 Delete type=0 #1702
+2026/06/25-18:22:01.654 5df4 Level-0 table #1709: started
+2026/06/25-18:22:01.660 5df4 Level-0 table #1709: 20593 bytes OK
+2026/06/25-18:22:01.662 5df4 Delete type=0 #1706
+2026/06/25-18:24:25.195 5df4 Level-0 table #1711: started
+2026/06/25-18:24:25.201 5df4 Level-0 table #1711: 19632 bytes OK
+2026/06/25-18:24:25.204 5df4 Delete type=0 #1708
+2026/06/25-18:26:56.531 5df4 Level-0 table #1713: started
+2026/06/25-18:26:56.536 5df4 Level-0 table #1713: 19981 bytes OK
+2026/06/25-18:26:56.537 5df4 Delete type=0 #1710
+2026/06/25-18:26:56.538 5df4 Compacting 4@0 + 2@1 files
+2026/06/25-18:26:56.635 5df4 Generated table #1714@0: 189475 keys, 2125203 bytes
+2026/06/25-18:26:56.640 5df4 Generated table #1715@0: 2697 keys, 122391 bytes
+2026/06/25-18:26:56.640 5df4 Compacted 4@0 + 2@1 files => 2247594 bytes
+2026/06/25-18:26:56.641 5df4 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/06/25-18:26:56.642 5df4 Delete type=2 #1704
+2026/06/25-18:26:56.642 5df4 Delete type=2 #1705
+2026/06/25-18:26:56.642 5df4 Delete type=2 #1707
+2026/06/25-18:26:56.642 5df4 Delete type=2 #1709
+2026/06/25-18:26:56.642 5df4 Delete type=2 #1711
+2026/06/25-18:26:56.642 5df4 Delete type=2 #1713
+2026/06/25-18:29:20.970 5df4 Level-0 table #1717: started
+2026/06/25-18:29:20.980 5df4 Level-0 table #1717: 18825 bytes OK
+2026/06/25-18:29:20.984 5df4 Delete type=0 #1712
+2026/06/25-18:31:36.726 5df4 Level-0 table #1719: started
+2026/06/25-18:31:36.731 5df4 Level-0 table #1719: 19644 bytes OK
+2026/06/25-18:31:36.733 5df4 Delete type=0 #1716
+2026/06/25-18:34:35.576 5df4 Level-0 table #1721: started
+2026/06/25-18:34:35.581 5df4 Level-0 table #1721: 17700 bytes OK
+2026/06/25-18:34:35.583 5df4 Delete type=0 #1718
+2026/06/25-18:36:59.059 5df4 Level-0 table #1723: started
+2026/06/25-18:36:59.066 5df4 Level-0 table #1723: 20183 bytes OK
+2026/06/25-18:36:59.069 5df4 Delete type=0 #1720
+2026/06/25-18:36:59.069 5df4 Compacting 4@0 + 2@1 files
+2026/06/25-18:36:59.160 5df4 Generated table #1724@0: 190191 keys, 2124506 bytes
+2026/06/25-18:36:59.167 5df4 Generated table #1725@0: 2994 keys, 135792 bytes
+2026/06/25-18:36:59.167 5df4 Compacted 4@0 + 2@1 files => 2260298 bytes
+2026/06/25-18:36:59.169 5df4 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/06/25-18:36:59.170 5df4 Delete type=2 #1714
+2026/06/25-18:36:59.170 5df4 Delete type=2 #1715
+2026/06/25-18:36:59.170 5df4 Delete type=2 #1717
+2026/06/25-18:36:59.170 5df4 Delete type=2 #1719
+2026/06/25-18:36:59.170 5df4 Delete type=2 #1721
+2026/06/25-18:36:59.170 5df4 Delete type=2 #1723
+2026/06/25-18:39:52.208 7254 Level-0 table #1727: started
+2026/06/25-18:39:52.220 7254 Level-0 table #1727: 19441 bytes OK
+2026/06/25-18:39:52.225 7254 Delete type=0 #1722
+2026/06/25-18:42:19.856 5df4 Level-0 table #1729: started
+2026/06/25-18:42:19.865 5df4 Level-0 table #1729: 20455 bytes OK
+2026/06/25-18:42:19.867 5df4 Delete type=0 #1726
+2026/06/25-18:45:00.243 5df4 Level-0 table #1731: started
+2026/06/25-18:45:00.252 5df4 Level-0 table #1731: 20717 bytes OK
+2026/06/25-18:45:00.254 5df4 Delete type=0 #1728
+2026/06/25-18:47:17.059 7254 Level-0 table #1733: started
+2026/06/25-18:47:17.065 7254 Level-0 table #1733: 19265 bytes OK
+2026/06/25-18:47:17.068 7254 Delete type=0 #1730
+2026/06/25-18:47:17.068 7254 Compacting 4@0 + 2@1 files
+2026/06/25-18:47:17.147 7254 Generated table #1734@0: 190926 keys, 2123606 bytes
+2026/06/25-18:47:17.153 7254 Generated table #1735@0: 3287 keys, 148820 bytes
+2026/06/25-18:47:17.153 7254 Compacted 4@0 + 2@1 files => 2272426 bytes
+2026/06/25-18:47:17.154 7254 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/06/25-18:47:17.155 7254 Delete type=2 #1724
+2026/06/25-18:47:17.155 7254 Delete type=2 #1725
+2026/06/25-18:47:17.155 7254 Delete type=2 #1727
+2026/06/25-18:47:17.155 7254 Delete type=2 #1729
+2026/06/25-18:47:17.155 7254 Delete type=2 #1731
+2026/06/25-18:47:17.155 7254 Delete type=2 #1733
+2026/06/25-18:50:16.066 5df4 Level-0 table #1737: started
+2026/06/25-18:50:16.071 5df4 Level-0 table #1737: 19639 bytes OK
+2026/06/25-18:50:16.073 5df4 Delete type=0 #1732
+2026/06/25-18:53:37.134 5df4 Level-0 table #1739: started
+2026/06/25-18:53:37.139 5df4 Level-0 table #1739: 18965 bytes OK
+2026/06/25-18:53:37.141 5df4 Delete type=0 #1736
+2026/06/25-18:56:03.584 5df4 Level-0 table #1741: started
+2026/06/25-18:56:03.593 5df4 Level-0 table #1741: 20286 bytes OK
+2026/06/25-18:56:03.595 5df4 Delete type=0 #1738
+2026/06/25-18:58:28.240 5df4 Level-0 table #1743: started
+2026/06/25-18:58:28.245 5df4 Level-0 table #1743: 21750 bytes OK
+2026/06/25-18:58:28.247 5df4 Delete type=0 #1740
+2026/06/25-18:58:28.248 5df4 Compacting 4@0 + 2@1 files
+2026/06/25-18:58:28.352 5df4 Generated table #1744@0: 191559 keys, 2123065 bytes
+2026/06/25-18:58:28.361 5df4 Generated table #1745@0: 3714 keys, 168106 bytes
+2026/06/25-18:58:28.361 5df4 Compacted 4@0 + 2@1 files => 2291171 bytes
+2026/06/25-18:58:28.362 5df4 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/06/25-18:58:28.363 5df4 Delete type=2 #1734
+2026/06/25-18:58:28.363 5df4 Delete type=2 #1735
+2026/06/25-18:58:28.364 5df4 Delete type=2 #1737
+2026/06/25-18:58:28.364 5df4 Delete type=2 #1739
+2026/06/25-18:58:28.364 5df4 Delete type=2 #1741
+2026/06/25-18:58:28.364 5df4 Delete type=2 #1743
+2026/06/25-19:00:52.914 5df4 Level-0 table #1747: started
+2026/06/25-19:00:52.923 5df4 Level-0 table #1747: 19701 bytes OK
+2026/06/25-19:00:52.928 5df4 Delete type=0 #1742
+2026/06/25-19:03:11.346 7254 Level-0 table #1749: started
+2026/06/25-19:03:11.359 7254 Level-0 table #1749: 21079 bytes OK
+2026/06/25-19:03:11.367 7254 Delete type=0 #1746
